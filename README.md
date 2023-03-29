@@ -38,21 +38,35 @@ UN은 인류의 보편적, 지구 환경 , 경제 사회 문제 등등 다양한
 
 <img alt="image" src="src/un3.png">
 
-#### 목표 3: 건강 및 웰빙
+#### **목표 3: 건강 및 웰빙**
 
-!왜 목표 3이 이뤄졌는지 작성하세요!
+ 우리의 안드로이드 앱은 실시간으로 유통기한을 확인 가능하게 개발되었고, 따라서 식료품을 신선하게 관리할 수 있다.
 
 <img alt="image" src="src/un12.png">
 
-#### 목표 12: 책임감있는 소비 및 생산
+#### **목표 12: 책임감있는 소비 및 생산**
 
-!왜 목표 3이 이뤄졌는지 작성하세요!
+ 우리의 안드로이드 앱은 버려지는 식료품을 최소화 하는 것에 목적을 두어 개발했고, 따라서 UN의 목표 12인 책임감있는 소비 및 생산을 달성할 수 있다.
 
 ---
 
 ## 기술_스택
 
 ---
+
+
+
+<img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white"/></a> 
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=Firebase&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=MariaDB&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=OpenJDK&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=Dart&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Adobe Illustrator-0175C2?style=flat-square&logo=Adobe Illustrator&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Keras-0175C2?style=flat-square&logo=Keras&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Tensorflow-0175C2?style=flat-square&logo=Tensorflow&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Adobe Photoshop-0175C2?style=flat-square&logo=Adobe Photoshop&logoColor=white"/></a>
 
 - App
   - Flutter
@@ -79,19 +93,11 @@ UN은 인류의 보편적, 지구 환경 , 경제 사회 문제 등등 다양한
 
 ---
 
-<img alt="image" src="">
+<img alt="image" src="src/post2.jpg">
 
-### 냉장고 식재료 리스트 보기
+<img alt="image" src="src/post3.jpg">
 
-<img alt="image" src="">
-
-### 식재료 데이터 추가
-
-<img alt="image" src="">
-
-### 메모 기능
-
-<img alt="image" src="">
+<img alt="image" src="src/post4.jpg">
 
 ---
 
@@ -99,7 +105,7 @@ UN은 인류의 보편적, 지구 환경 , 경제 사회 문제 등등 다양한
 
 ---
 
-### Item localhost/item/add
+## Item localhost/item/add
 
 - 재료 저장
 - method : **POST**
@@ -124,7 +130,7 @@ UN은 인류의 보편적, 지구 환경 , 경제 사회 문제 등등 다양한
   
 ### 요청 예시
 
-<img alt="image" src="">
+<img alt="image" src="src/API_ex1.png">
 
 ### 응답 예시
 
@@ -299,7 +305,7 @@ UN은 인류의 보편적, 지구 환경 , 경제 사회 문제 등등 다양한
 
 <table>
   <tr>
-    <td align="center"><img src="https://avatars.githubusercontent.com/u/62877861?v=4" width="100px;" alt=""/><br /><b>In Gyu Lee</b><br/>🇰🇷</td>
+    <td align="center"><img src="https://avatars.githubusercontent.com/u/111222017?v=4" width="100px;" alt=""/><br /><b>Yun Seop Han</b><br/>🇰🇷</td>
     <td align="center"><img src="https://avatars.githubusercontent.com/u/62877861?v=4" width="100px;" alt=""/><br /><b>In Gyu Lee</b><br/>🇰🇷</td>
     <td align="center"><img src="https://avatars.githubusercontent.com/u/62877861?v=4" width="100px;" alt=""/><br /><b>In Gyu Lee</b><br/>🇰🇷</td>
     <td align="center"><img src="https://avatars.githubusercontent.com/u/62877861?v=4" width="100px;" alt=""/><br /><b>In Gyu Lee</b><br/>🇰🇷</td>
