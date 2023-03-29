@@ -64,28 +64,36 @@ UN은 인류의 보편적, 지구 환경 , 경제 사회 문제 등등 다양한
 
 
 
-<img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white"/></a> 
+<img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=Flutter&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=Dart&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=Firebase&logoColor=white"/></a>
+
+<img src="https://img.shields.io/badge/Adobe Illustrator-0175C2?style=flat-square&logo=Adobe Illustrator&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Adobe Photoshop-0175C2?style=flat-square&logo=Adobe Photoshop&logoColor=white"/></a>
+
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=MariaDB&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=OpenJDK&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=Dart&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Adobe Illustrator-0175C2?style=flat-square&logo=Adobe Illustrator&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Keras-0175C2?style=flat-square&logo=Keras&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Tensorflow-0175C2?style=flat-square&logo=Tensorflow&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Adobe Photoshop-0175C2?style=flat-square&logo=Adobe Photoshop&logoColor=white"/></a>
+
+<img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=Keras&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Tensorflow-FF6F00?style=flat-square&logo=Tensorflow&logoColor=white"/></a>
+
 
 - App
-  - Flutter
   - Android
+  - Flutter
+  - Dart
   - Firebase
   - Google MLKit
 - Design
-  - 어도비 Illustrator
-  - Photoshop
+  - Adobe Illustrator
+  - Adobe Photoshop
 - BE
   - Spring
+  - Spring Boot
   - JPA
   - Maria DB
   - Java
