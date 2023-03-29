@@ -1,64 +1,63 @@
-수정 사항: 뱃지 띄어쓰기 및 색상 변경, 협업자 수정, 목차 수정
 
 # MCIET, Mom can I eat this?
 
 <img alt="image" src="src/post1.jpg">
 
-2023-MCIET-SolutionChallenge-android
+2023-MCIET-SolutionChallenge-Android
 
 ---
 
-## Contents
-- [MCIET의 의미](#MCIET의_의미)
-- [UN의_지속_가능한_개발_목표](#UN의_지속_가능한_개발_목표)
-- [기술_스택](#기술_스택)
-- [주요_기능](#주요_기능)
-- [API_명세서](#API_명세서)
-- [협업자](#협업자)
+## CONTENTS
+- [Meaning of MCIET](#Meaning of MCIET)
+- [The UN's Sustainable Development Goals](#The UN's Sustainable Development Goals)
+- [Technology Stack](#Technology Stack)
+- [Key Features](#Key Features)
+- [API Statement](#API Statement)
+- [Contributor](#Contributor)
 
 ---
 
-## MCIET의_의미
+## Meaning of MCIET
 
 ---
 
- 우리는 평소 냉장고에 못보던 식료품이 있으면, 어머니께 묻곤 합니다. 엄마 이거 먹어도 돼요?
+We usually ask our mother if there are groceries in the refrigerator that we haven't seen before. Mom, can I eat this?
 
- 우리는 항상 냉장고에 있는 식료품을 먹기 위해 꺼내지 않는 이상 식료품의 유통기한이 얼마나 남았는지, 얼마나 냉장고에 오래 있었는지 궁금해하지 않습니다. 따라서 유통기한을 미리 확인하지 못해 못먹고 버려지는 음식도 많습니다. 우리는 이러한 문제를 해결하기 원했고, 우리가 모르는 유통기한을 확인해주는 MCIET(Mom Can I Eat This?)라는 이름의 앱을 만들게 되었습니다.
+We don't always wonder how long the groceries have left their shelf life or how long they've been in the fridge unless we take them out to eat them. Therefore, there are many foods that are discarded without being able to check the expiration date in advance. We wanted to solve this problem, and we created an app called MCIET (Mom Can I Eat This?) that checks the expiration date that we don't know.
 
 ---
 
 <img alt="image" src="src/ciety.png">
 
-this bear name is Ciety! Hi Ciety!
+This bear name is Ciety! Hi Ciety!
 
 ---
 
-## UN의_지속_가능한_개발_목표
+## The UN's Sustainable Development Goals
 
 ---
 
 <img alt="image" src="src/un17.png">
 
-UN은 인류의 보편적, 지구 환경 , 경제 사회 문제 등등 다양한 17가지 주 목표를 제시하고 있습니다.
+The UN has 17 main objectives, including human universal, global environment, economic and social issues.
 
-### 우리가 달성할 목표
+### Goals that we will achieve
 
 <img alt="image" src="src/un3.png">
 
-#### **목표 3: 건강 및 웰빙**
+#### **Goal 3: Good Health And Well--Being**
 
- 우리의 안드로이드 앱은 실시간으로 유통기한을 확인 가능하게 개발되었고, 따라서 식료품을 신선하게 관리할 수 있다.
+Our Android app has been developed to check the expiration date in real time, so you can keep your groceries fresh.
 
 <img alt="image" src="src/un12.png">
 
-#### **목표 12: 책임감있는 소비 및 생산**
+#### **Goal 12: Responsible Consumption And Production**
 
- 우리의 안드로이드 앱은 버려지는 식료품을 최소화 하는 것에 목적을 두어 개발했고, 따라서 UN의 목표 12인 책임감있는 소비 및 생산을 달성할 수 있다.
+Our Android app was developed with the aim of minimizing discarded groceries, so we can achieve the UN's goal of 12, responsible consumption and production.
 
 ---
 
-## 기술_스택
+## Technology Stack
 
 ---
 
@@ -105,7 +104,7 @@ UN은 인류의 보편적, 지구 환경 , 경제 사회 문제 등등 다양한
 
 ---
 
-## 주요_기능
+## Key Features
 
 ---
 
@@ -117,38 +116,38 @@ UN은 인류의 보편적, 지구 환경 , 경제 사회 문제 등등 다양한
 
 ---
 
-## API_명세서
+## API Statement
 
 ---
 
-## Item localhost/item/add
+## localhost/item/add
 
-- 재료 저장
+- Storage Groceries
 - method : **POST**
 - Request
   - formData
     - key : multipartFile
     - value :
-      - 사진 :: Multipart (사용자 사진)
+      - Photo :: Multipart (User Photo)
     - key : addItemDto
     - value :
-      - name :: String (재료 이름)
-      - expirationDate :: String (유통기한)
-      - itemCategory :: String (카테고리)
+      - name :: String (Groceries Name)
+      - expirationDate :: String (Expiration date)
+      - itemCategory :: String (Category)
 - Response
   - Body
-    - success : boolean (성공 여부)
-    - status : int (상태)
+    - success : boolean (Success or Failure)
+    - status : int (Status)
     - data :
-      - itemId :: Long (재료 id)
-    - successResponseMessage : String (상태 메세지)
-    - timeStamp : String (시간)
+      - itemId :: Long (Groceries Id)
+    - successResponseMessage : String (Status Message)
+    - timeStamp : String (Time)
   
-### 요청 예시
+### Request Example
 
 <img alt="image" src="src/API_ex1.png">
 
-### 응답 예시
+### Response Example
 
 ```json
 {
@@ -162,24 +161,24 @@ UN은 인류의 보편적, 지구 환경 , 경제 사회 문제 등등 다양한
 
 ## localhost/item/list
 
-- 재료 전체 리스트 보여주기
+- Show List Of Groceries
 - method : Get
 - Request
   - Body
-    - 없음
+    - No Data
 - Response
   - Body
-    - success : boolean 성공 여부
-    - status : int 상태
+    - success : boolean (Success or Failure)
+    - status : int (Status)
     - `data` :
-      - name :: String (재료 이름)
-      - expirationDate :: String (재료 유통기한)
-      - remainExpirationDate :: int (재료 남은 유통기한)
-      - itemCategory :: String (재료 카테고리)
-    - successResponseMessage : String 상태 메세지
-    - timeStamp : String 시간
+      - name :: String (Groceries Name)
+      - expirationDate :: String (Expiration date)
+      - remainExpirationDate :: int (Remaining Expiration Date)
+      - itemCategory :: String (Category)
+    - successResponseMessage : String (Status Message)
+    - timeStamp : String (Time)
 
-### 응답 예시
+### Response Example
 
 ```json
 {
@@ -212,25 +211,25 @@ UN은 인류의 보편적, 지구 환경 , 경제 사회 문제 등등 다양한
 
 ## localhost/item/{itemId}
 
-- 재료 세부사항 보여주기
+- Show Groceries Details
 - method : Get
 - Request
   - Body
-    - 없음
+    - No Data
 - Response
   - Body
-    - success : boolean 성공 여부
-    - status : int 상태
+    - success : boolean (Success or Failure)
+    - status : int (Status)
     - `data` :
-      - name :: String (재료 이름)
-      - expirationDate :: String (재료 유통기한)
-      - filePath :: String (재료 사진 url)
-      - remainExpirationDate :: int (재료 남은 유통기한)
-      - itemCategory :: String (재료 카테고리)
-    - successResponseMessage : String 상태 메세지
-    - timeStamp : String 시간
+      - name :: String (Groceries Name)
+      - expirationDate :: String (Expiration date)
+      - filePath :: String (Groceries url)
+      - remainExpirationDate :: int (Remaining Expiration Date)
+      - itemCategory :: String (Category)
+    - successResponseMessage : String (Status Message)
+    - timeStamp : String (Time)
 
-### 응답 예시
+### Response Example
 
 ```json
 {
@@ -250,20 +249,20 @@ UN은 인류의 보편적, 지구 환경 , 경제 사회 문제 등등 다양한
 
 ## localhost/item/{itemId}
 
-- 재료 삭제하기
+- Delete Groceries
 - method : Delete
 - Request
   - Body
-    - 없음
+    - No Data
 - Response
   - Body
-    - success : boolean 성공 여부
-    - status : int 상태
+    - success : boolean (Success or Failure)
+    - status : int (Status)
     - `data` : null
-    - successResponseMessage : String 상태 메세지
-    - timeStamp : String 시간
+    - successResponseMessage : String (Status Message)
+    - timeStamp : String (Time)
   
-### 응답 예시
+### Response Example
 
 ```json
 {
@@ -277,21 +276,21 @@ UN은 인류의 보편적, 지구 환경 , 경제 사회 문제 등등 다양한
 
 ## localhost/item/1day/list
 
-- 유통기한 1일 남은 재료들 보여주기
+- Show Groceries that have 1 day left before the expiration date
 - method : Get
 - Request
   - Body
-    - 없음
+    - No Data
 - Response
   - Body
-    - success : boolean 성공 여부
-    - status : int 상태
+    - success : boolean (Success or Failure)
+    - status : int (Status)
     - `data` :
-      - name :: String (재료 이름)
-    - successResponseMessage : String 상태 메세지
-    - timeStamp : String 시간
+      - name :: String (Groceries Name)
+    - successResponseMessage : String (Status Message)
+    - timeStamp : String (Time)
 
-### 응답 예시
+### Response Example
 
 ```json
 {
@@ -315,7 +314,7 @@ UN은 인류의 보편적, 지구 환경 , 경제 사회 문제 등등 다양한
 
 ---
 
-## 협업자
+## Contributor
 
 ---
 
