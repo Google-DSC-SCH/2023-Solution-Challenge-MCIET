@@ -1,6 +1,6 @@
 # MCIET, Mom can I eat this?
 
-<img alt="image" src="">
+<img alt="image" src="src/post1.jpg">
 
 2023-MCIET-SolutionChallenge-android
 
@@ -9,7 +9,7 @@
 ## Contents
 - [MCIET의 의미](#MCIET의_의미)
 - [UN의_지속_가능한_개발_목표](#UN의_지속_가능한_개발_목표)
-- [기술_스택](#기술_스택)`
+- [기술_스택](#기술_스택)
 - [주요_기능](#주요_기능)
 - [API_명세서](#API_명세서)
 - [협업자](#협업자)
@@ -30,19 +30,19 @@
 
 ---
 
-<img alt="image" src="">
+<img alt="image" src="src/un17.png">
 
 UN은 인류의 보편적, 지구 환경 , 경제 사회 문제 등등 다양한 17가지 주 목표를 제시하고 있습니다.
 
 ### 우리가 달성할 목표
 
-<img alt="image" src="">
+<img alt="image" src="src/un3.png">
 
 #### 목표 3: 건강 및 웰빙
 
 !왜 목표 3이 이뤄졌는지 작성하세요!
 
-<img alt="image" src="">
+<img alt="image" src="src/un12.png">
 
 #### 목표 12: 책임감있는 소비 및 생산
 
@@ -57,6 +57,8 @@ UN은 인류의 보편적, 지구 환경 , 경제 사회 문제 등등 다양한
 - App
   - Flutter
   - Android
+  - Firebase
+  - Google MLKit
 - Design
   - 어도비 Illustrator
   - Photoshop
@@ -64,7 +66,8 @@ UN은 인류의 보편적, 지구 환경 , 경제 사회 문제 등등 다양한
   - Spring
   - JPA
   - Maria DB
-  - FireBase
+  - Java
+  - AWS EC2
 - ML
   - Tensorflow
   - Keras
@@ -96,7 +99,7 @@ UN은 인류의 보편적, 지구 환경 , 경제 사회 문제 등등 다양한
 
 ---
 
-### Item 3.39.32.28:8080/item/add
+### Item localhost/item/add
 
 - 재료 저장
 - method : **POST**
@@ -135,7 +138,7 @@ UN은 인류의 보편적, 지구 환경 , 경제 사회 문제 등등 다양한
 }
 ```
 
-## 3.39.32.28:8080/item/list
+## localhost/item/list
 
 - 재료 전체 리스트 보여주기
 - method : Get
@@ -185,7 +188,7 @@ UN은 인류의 보편적, 지구 환경 , 경제 사회 문제 등등 다양한
 }
 ```
 
-## 3.39.32.28:8080/item/{itemId}
+## localhost/item/{itemId}
 
 - 재료 세부사항 보여주기
 - method : Get
@@ -223,7 +226,7 @@ UN은 인류의 보편적, 지구 환경 , 경제 사회 문제 등등 다양한
 }
 ```
 
-## 3.39.32.28:8080/item/{itemId}
+## localhost/item/{itemId}
 
 - 재료 삭제하기
 - method : Delete
@@ -250,7 +253,7 @@ UN은 인류의 보편적, 지구 환경 , 경제 사회 문제 등등 다양한
 }
 ```
 
-## 3.39.32.28:8080/item/1day/list
+## localhost/item/1day/list
 
 - 유통기한 1일 남은 재료들 보여주기
 - method : Get
