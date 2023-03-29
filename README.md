@@ -8,11 +8,11 @@
 ---
 
 ## CONTENTS
-- [Meaning of MCIET](#Meaning of MCIET)
-- [The UN's Sustainable Development Goals](#The UN's Sustainable Development Goals)
-- [Technology Stack](#Technology Stack)
-- [Key Features](#Key Features)
-- [API Statement](#API Statement)
+- [Meaning of MCIET](#Meaning-of-MCIET)
+- [The UN's Sustainable Development Goals](#The-UN's-Sustainable-Development-Goals)
+- [Technology Stack](#Technology-Stack)
+- [Key Features](#Key-Features)
+- [API Statement](#API-Statement)
 - [Contributor](#Contributor)
 
 ---
