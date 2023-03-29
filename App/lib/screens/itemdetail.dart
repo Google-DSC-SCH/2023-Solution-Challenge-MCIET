@@ -218,7 +218,7 @@ class _ItemDetailsState extends State<ItemDetails> {
 
     final headers = {
       'Content-Type': 'application/json',
-      'Authorization': 'bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrYW5nSW5AZ21haWwuY29tIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTY3OTgyNjEwOSwiZXhwIjoxNjc5ODQ3NzA5fQ.Fd53TWBm9ia95mn6aPAQmmRkRUvcATyRO5qYpt12OVg'
+      'Authorization': ''
     };
 
     http.Response response = await http.delete(

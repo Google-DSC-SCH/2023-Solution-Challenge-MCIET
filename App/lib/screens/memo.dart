@@ -145,7 +145,7 @@ class _memoPageState extends State<memoPage> {
 
     final headers = {
       'Content-Type': 'application/json',
-      'Authorization': 'bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrYW5nSW5AZ21haWwuY29tIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTY3OTgyMzg0NSwiZXhwIjoxNjc5ODQ1NDQ1fQ.MfpZTSQ-x4JLik25pdfLBbv73mozZPIZefVM3lY9FII'
+      'Authorization': ''
     };
 
     final body = jsonEncode({
