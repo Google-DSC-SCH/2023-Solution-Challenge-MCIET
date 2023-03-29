@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://localhost:3305/mciet
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: hunil@3751
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
