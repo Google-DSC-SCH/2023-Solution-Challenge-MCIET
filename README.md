@@ -319,11 +319,4 @@ UN은 인류의 보편적, 지구 환경 , 경제 사회 문제 등등 다양한
 
 ---
 
-<table>
-  <tr>
-    <td align="center"><img src="https://avatars.githubusercontent.com/u/111222017?v=4" width="100px;" alt=""/><br /><b>Yun Seop Han</b><br/>🇰🇷</td>
-    <td align="center"><img src="https://avatars.githubusercontent.com/u/62877861?v=4" width="100px;" alt=""/><br /><b>In Gyu Lee</b><br/>🇰🇷</td>
-    <td align="center"><img src="https://avatars.githubusercontent.com/u/62877861?v=4" width="100px;" alt=""/><br /><b>In Gyu Lee</b><br/>🇰🇷</td>
-    <td align="center"><img src="https://avatars.githubusercontent.com/u/62877861?v=4" width="100px;" alt=""/><br /><b>In Gyu Lee</b><br/>🇰🇷</td>
-  <tr>
-<table>
+<img alt="image" src="src/Contribute.jpg">
