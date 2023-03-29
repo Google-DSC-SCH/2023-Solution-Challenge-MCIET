@@ -8,7 +8,7 @@
 ---
 
 ## CONTENTS
-- [Meaning of MCIET](#Meaning-of-MCIET)
+- [Meaning Of MCIET](#Meaning-Of-MCIET)
 - [The United Nations 17 Sustainable Development Goals](#The-United-Nations-17-Sustainable-Development-Goals)
 - [Technology Stack](#Technology-Stack)
 - [Key Features](#Key-Features)
@@ -17,7 +17,7 @@
 
 ---
 
-## Meaning of MCIET
+## Meaning Of MCIET
 
 ---
 
