@@ -41,11 +41,11 @@ This bear name is Ciety! Hi Ciety!
 
 The UN has 17 main objectives, including human universal, global environment, economic and social issues.
 
-### Goals that we will achieve
+### Goals That We Will Achieve
 
 <img alt="image" src="src/un3.png">
 
-#### **Goal 3: Good Health And Well--Being**
+#### **Goal 3: Good Health And Well-Being**
 
 Our Android app has been developed to check the expiration date in real time, so you can keep your groceries fresh.
 
